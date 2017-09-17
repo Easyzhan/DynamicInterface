@@ -1,0 +1,22 @@
+<web-app>
+   <servlet>
+    <servlet-name>FuckServlet</servlet-name>
+    <servlet-class>com.dragon.servelet.FuckServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>FuckServlet</servlet-name>
+    <url-pattern>/duckServlet</url-pattern>
+  </servlet-mapping>
+ <!--  -->
+ <servlet>
+        <servlet-name>DataSevelet</servlet-name>
+        <servlet-class>com.dragon.servelet.DataServelet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DataSevelet</servlet-name>
+        <url-pattern>/fuckDatas</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
